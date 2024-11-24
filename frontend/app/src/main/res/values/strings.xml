@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Location</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Details</string>
+    <string name="title_notifications">Favorites</string>
+    <string name="splash_logo_description">Splash logo image</string>
+    <string name="text_logo_description">Text logo image</string>
+
+</resources>

@@ -1,0 +1,55 @@
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:elevation="8dp"
+    android:padding="12dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <!-- Name Text -->
+        <TextView
+            android:id="@+id/text_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:paddingBottom="4dp" />
+
+        <!-- Coordinates Text -->
+        <TextView
+            android:id="@+id/text_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Coordinates"
+            android:textSize="14sp"
+            android:textColor="@color/dark_gray"
+            android:paddingBottom="4dp" />
+
+        <!-- Created At Text -->
+        <TextView
+            android:id="@+id/text_createdAt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Created At"
+            android:textSize="12sp"
+            android:textColor="@color/gray"
+            android:paddingBottom="2dp" />
+
+        <!-- Updated At Text -->
+        <TextView
+            android:id="@+id/text_updatedAt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Updated At"
+            android:textSize="12sp"
+            android:textColor="@color/gray" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
