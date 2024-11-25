@@ -187,7 +187,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For any questions or feedback, feel free to contact:
 - **GitHub Repository**: [YoussraJ/locationApi](https://github.com/YoussraJ/locationApi)
-- **Email**: youssraj@example.com
+
 
 ---
 
